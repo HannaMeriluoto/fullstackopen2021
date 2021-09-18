@@ -32,7 +32,7 @@ const App = () => {
       <div>
         <Part part={props.parts[0].name} exercisesAmount={props.parts[0].exercises} />
         <Part part={props.parts[1].name} exercisesAmount={props.parts[1].exercises} />
-        <Part part={props.parts[2].name} exersicesAmount={props.parts[2].exercises} />
+        <Part part={props.parts[2].name} exercisesAmount={props.parts[2].exercises} />
       </div>
     )
   }
