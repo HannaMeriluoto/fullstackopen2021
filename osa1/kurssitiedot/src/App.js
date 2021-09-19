@@ -27,7 +27,6 @@ const App = () => {
   }
 
   const Content = (props) => {
-    console.log(props)
     return (
       <div>
         <Part part={props.parts[0].name} exercisesAmount={props.parts[0].exercises} />
